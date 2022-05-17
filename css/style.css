@@ -1,0 +1,149 @@
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+
+
+body {
+  background: #3683BC
+}
+
+.signature {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  padding: 20px;
+  isolation: isolate;
+  width: 372px;
+  height: 164px;
+  background: #FFFFFF;
+  overflow: hidden;
+}
+
+.logo {
+  width: 108px;
+  height: 112px;
+  margin-right: 16px;
+
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  border-left: 2px solid #D6E5F0;
+  padding-left: 16px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: 'Barlow';
+  font-style: normal;
+  margin-bottom: 14px;
+}
+
+.title__name {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #3683BC;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+
+.title__desc {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #24356C;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 14px;
+}
+
+
+.contacts-item {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  text-decoration: none;
+}
+
+.contacts-icon {
+  width: 12px;
+  height: 12px;
+}
+
+.contacts-item {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 10px;
+  color: #24356C;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 68px;
+  height: 14px;
+}
+
+.socials__link {
+  display: flex;
+  width: 14px;
+  height: 14px;
+}
+
+.contacts-item {
+  margin-bottom: 6px;
+}
+
+.contacts-icon {
+  margin-right: 4px;
+}
+
+.contacts-item:last-child {
+  margin-bottom: 0;
+}
+
+.ellipse {
+  position: absolute;
+  z-index: -1;
+  top: -62px;
+  right: 0px
+}
+
+.square_one {
+  position: absolute;
+  z-index: -1;
+  bottom: -6px;
+  right: 4px
+}
+
+.square_two {
+  position: absolute;
+  z-index: -1;
+  top: -36px;
+  left: -7px
+}
